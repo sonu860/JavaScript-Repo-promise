@@ -1,16 +1,16 @@
 // Promise
-const promise = new Promise((resolve, reject) =>{ // resolve and reject are the functions   
+// const promise = new Promise((resolve, reject) =>{ // resolve and reject are the functions   
     
-        let user = false;
-       if(!user){
-        resolve({user: 'james'})
-       }
-       else{
-        reject('error')
-       }
+//         let user = false;
+//        if(!user){
+//         resolve({user: 'james'})
+//        }
+//        else{
+//         reject('error')
+//        }
   
-})
-// Using then and catch 
+// })
+// // Using then and catch 
 // promise.then((user) =>{
 //     console.log('resolved', user)
 //     return user.user
